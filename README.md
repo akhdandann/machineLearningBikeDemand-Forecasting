@@ -10,7 +10,7 @@ Key machine learning models such as K-Nearest Neighbors (KNN), Naive Bayes, Line
 
 ## Features
 
-- *Data Source*: Kaggle’s Bike Sharing Demand dataset
+- *Data Source*: Kaggle’s Bike Sharing Demand dataset *(included in the repo under Dataset/ folder)*
 - *Preprocessing*: Handling of categorical features, missing values, and feature engineering based on date/time
 - *Modeling*:
   - K-Nearest Neighbors (KNN)
@@ -28,29 +28,11 @@ Key machine learning models such as K-Nearest Neighbors (KNN), Naive Bayes, Line
   - Confusion matrices
   - Performance analysis on multiple feature subsets
 
-## Technologies Used
+## Visualization
 
-- *Languages*: Python
-- *Libraries*:
-  - Pandas, NumPy
-  - Matplotlib, Seaborn
-  - Scikit-learn
-  - CatBoost
-- *Environment*: Google Colab / Jupyter Notebook
+Below is an example visualization showing the trend of bike rentals over time:
 
-## How to Run
-
-1. Clone this repository or open the .ipynb file in Google Colab.
-2. Ensure all required libraries are installed (scikit-learn, catboost, etc.).
-3. Run the notebook cells step-by-step to perform data preprocessing, training, and evaluation.
-
-## Skills Demonstrated
-
-- End-to-end machine learning pipeline
-- Working with real-world time series and categorical data
-- Comparative analysis across multiple ML models
-- Feature selection and engineering
-- Model evaluation with proper metrics and validation
+<img src="trendofBikeRental.png" alt="Bike Rental Trend" width="600"/>
 
 ## Results & Discussion
 
@@ -66,6 +48,31 @@ Key findings include:
 - Subsets of features (e.g., removing temperature, weather conditions, or categorical variables) revealed how sensitive each algorithm is to specific data aspects.
 
 Overall, ensemble methods combined with proper feature selection yielded the best and most consistent results.
+
+## Technologies Used
+
+- *Languages*: Python
+- *Libraries*:
+  - Pandas, NumPy
+  - Matplotlib, Seaborn
+  - Scikit-learn
+  - CatBoost
+- *Environment*: Google Colab / Jupyter Notebook
+
+## How to Run
+
+1. Clone this repository or open the .ipynb file in Google Colab.
+2. Make sure all required libraries are installed (scikit-learn, catboost, etc.).
+3. Run the notebook cells step-by-step to perform data preprocessing, training, and evaluation.
+4. The dataset is already included in the Dataset/ folder.
+
+## Skills Demonstrated
+
+- End-to-end machine learning pipeline
+- Working with real-world time series and categorical data
+- Comparative analysis across multiple ML models
+- Feature selection and engineering
+- Model evaluation with proper metrics and validation
 
 ---
 
